@@ -1,0 +1,16 @@
+:root {
+  --color-main: rgb(71, 97, 88);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Halvetica, sans-serif;
+  background-color: rgba(71, 97, 88, 0.7);
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
