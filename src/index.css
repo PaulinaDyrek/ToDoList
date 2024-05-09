@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kumbh+Sans:wght@100..900&family=Shadows+Into+Light&display=swap");
 :root {
-  --color-main: rgb(71, 97, 88);
+  --color-main: #700b38;
 }
 * {
   margin: 0;
@@ -8,9 +9,13 @@
 }
 
 body {
-  font-family: Halvetica, sans-serif;
-  background-color: rgba(71, 97, 88, 0.7);
+  font-family: Dosis, sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(112, 11, 56, 1) 6%,
+    rgba(72, 84, 97, 1) 100%
+  );
   display: flex;
   justify-content: center;
-  padding-top: 32px;
+  padding-top: 100px;
 }

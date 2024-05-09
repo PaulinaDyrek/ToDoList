@@ -1,12 +1,10 @@
 export function getSubheading(numberOfTasks) {
   switch (true) {
-    case numberOfTasks > 4:
-      return `${numberOfTasks} zadań`;
     case numberOfTasks > 1:
-      return `${numberOfTasks} zadania`;
+      return `${numberOfTasks} tasks`;
     case numberOfTasks === 1:
-      return `${numberOfTasks} zadanie`;
+      return `${numberOfTasks} task`;
     case numberOfTasks === 0:
-      return "Brak zadań";
+      return "";
   }
 }

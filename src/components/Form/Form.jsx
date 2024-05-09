@@ -12,6 +12,7 @@ export function Form({ onFormSubmit }) {
       className={styles.form}
     >
       <input
+        placeholder="What is the task today?"
         value={inputValue}
         onChange={(event) => setInputValue(event.target.value)}
         className={styles.input}

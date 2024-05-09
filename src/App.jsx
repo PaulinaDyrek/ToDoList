@@ -7,16 +7,17 @@ import { useState } from "react";
 function App() {
   const [isFormShown, setIsFormShown] = useState(false);
   const [todos, setTodos] = useState([
-    { name: "Zapłacić rachunki", done: false, id: 1 },
-    { name: "Wyrzucić smieci", done: true, id: 2 },
+    { name: "Do laundry", done: false, id: 1 },
+    { name: "Walk with dog", done: true, id: 2 },
+    { name: "Cinema with friend", done: false, id: 3 },
   ]);
 
   return (
     <div className={styles.container}>
       <header className={styles.header}>
         <div>
-          <h1>Do zrobienia</h1>
-          <h2>{getSubheading(todos.length)}</h2>
+          <h1>Get Things Done!</h1>
+          <p className={styles.p}>{getSubheading(todos.length)}</p>
         </div>
         {!isFormShown && (
           <button
