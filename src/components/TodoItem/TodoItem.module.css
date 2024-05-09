@@ -15,7 +15,7 @@
   width: 100%;
   font-size: 18px;
   color: #fff;
-  padding: 0 5px 15px 5px;
+  padding: 0 5px 15px 25px;
 }
 
 .done {
@@ -25,4 +25,5 @@
   color: #fff;
   font-size: 26px;
   margin-right: 10px;
+  padding-bottom: 8px;
 }
