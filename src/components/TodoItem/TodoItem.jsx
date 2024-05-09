@@ -1,5 +1,7 @@
 import { Button } from "../Button/Button";
 import styles from "../TodoItem/TodoItem.module.css";
+import { MdOutlineTaskAlt } from "react-icons/md";
+import { ImBin } from "react-icons/im";
 export function TodoItem({
   name,
   done,
@@ -11,8 +13,10 @@ export function TodoItem({
       <span className={`${styles.name} ${done ? styles.done : ""}`}>
         {name}
       </span>
-      {!done && <Button onClick={onDoneButtonClick}>Zrobione</Button>}
-      <Button onClick={onDeleteButtonClick}>Usuń</Button>
+      {!done && (
+        <MdOutlineTaskAlt className={styles.font} onClick={onDoneButtonClick} />
+      )}
+      <ImBin className={styles.font} onClick={onDeleteButtonClick} />
     </li>
   );
 }

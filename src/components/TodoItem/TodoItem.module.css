@@ -7,12 +7,22 @@
   margin-top: 16px;
   padding-top: 16px;
   min-width: 400px;
+  background: var(--color-main);
+  border-radius: 10px;
 }
 
 .name {
   width: 100%;
+  font-size: 18px;
+  color: #fff;
+  padding: 0 5px 15px 5px;
 }
 
 .done {
   text-decoration: line-through;
+}
+.font {
+  color: #fff;
+  font-size: 26px;
+  margin-right: 10px;
 }

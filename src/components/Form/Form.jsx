@@ -18,7 +18,7 @@ export function Form({ onFormSubmit }) {
         className={styles.input}
         type="text"
       />
-      <Button>Dodaj</Button>
+      <Button>Add Task</Button>
     </form>
   );
 }
